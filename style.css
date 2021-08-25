@@ -1,0 +1,112 @@
+
+
+/* GENERAL */
+html, body {
+    font-family: Raleway;
+}
+.flexCentre {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.decorationNone {
+    text-decoration: none;
+}
+.bordureNone {
+    border: none;
+}
+.slogan {
+   font-weight: bold; 
+}
+/* NAV */
+.sizeNav {
+    height: 100px;
+}
+.sizeLiens {
+    width: 45%;
+}
+.sizeLien {
+    width: 140px;
+    height: 99px;
+}
+.colorBleuClair {
+    color: #deebff;
+}
+.colorGris {
+    color:#f2f2f2
+}
+.backBleu {
+    background-color:#0065FC;
+}
+.backGris {
+    background-color: #f2f2f2;
+}
+.colorLien13 {
+    color:#0065FC;
+}
+.colorLien2{
+    color:black;
+} 
+.bordureNav {
+    border-top: 1px solid #0065FC;
+}
+
+.bordureNav23 {
+border-top: 1px solid transparent;
+}
+.margeLogo {
+    margin-bottom: 7px;
+}
+/* HEADER */
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2; 
+}
+.recherche {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color :black;
+    font-weight: bold;
+    }
+.paddingSearch{
+    padding-left: 20px; 
+    }
+.iconeSize {
+  height: 50px;
+  width: 50px; 
+  border-radius: 10px 0 0 10px;
+}
+
+.buttonSearch {
+    height: 50px;
+    width: 120px;    
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+/* FOOTER */
+.footer {
+    height: 300px;
+    margin-top: 100px;
+}
+.tailleBlocFoot {
+  height: 150px;  
+}
+.margeBlockFoot1{
+    margin-left:5%
+}
+.margeBlockFoot3 {
+    margin-right: 15%;
+}
