@@ -1,0 +1,547 @@
+/* GENERAL */
+html, body {
+    font-family: Raleway;
+}
+body {
+    margin-top: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#blocPage{
+
+    max-width:1400px;
+    margin:0 auto;
+
+}
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColonneCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexColonneAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flexColonneBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.decorationNone {
+    text-decoration: none;
+}
+.bordureNone {
+    border: none;
+}
+.policeGras {
+    font-weight: bold;
+}
+/* NAVIGATION */
+.sizeNav {
+    height: 100px;
+}
+.sizeLiens {
+    width: 100%;
+}
+.sizeLien {
+    width: 140px;
+    height: 99px;
+}
+.sizeLien12 {
+ margin-left: 60%;   
+}
+.couleurBleuClair {
+    color: #deebff;
+}
+.couleurGris {
+    color:#f2f2f2
+}
+.couleurBleu {
+    color: #0065FC;
+}
+.couleurNoire {
+    color: black;
+}
+.backBleu {
+    background-color:#0065FC;
+}
+.backGris {
+    background-color: #f2f2f2;
+}
+.couleurLien13 {
+    color:#0065FC;
+}
+.couleurLien2{
+    color:black;
+} 
+.bordureNav {
+    border-top: 2px solid transparent;
+}
+.bordureNav:hover {
+    border-top: 2px solid #0065FC;
+    cursor: pointer;
+}
+.couleurNoire:hover {
+    color: #0065FC;
+}
+.bordureNav:hover > a{    
+    color: #0065FC; 
+    }
+.margeLogo {
+    margin-bottom: 7px;
+}
+.slogan {
+    font: bold;
+}
+/* HEADER */
+.bordureRechercher {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2; 
+}
+.rechercher {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    font-family: Raleway;
+    color :rgba(20, 20, 20, 0.747);
+    font-weight: bold;
+    margin-left: 20px;
+    }
+.margeIntRechercher{
+    padding-left: 20px; 
+    }
+.iconeSize {
+  height: 50px;
+  width: 50px; 
+  border-radius: 10px 0 0 10px;
+}
+.signifiantRechercher {
+    height: 50px;
+    width: 125px;    
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    font-family: Raleway;
+    font-size: 18px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.signifiantRechercher:hover { 
+    color: #0065FC;
+    background-color: #deebff;
+    font-weight: bold;
+}
+/* FILTRES */
+.margeFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: inline-flex;
+}
+.filtre{
+    display: flex;
+    align-items: center;
+}
+.margeFiltreTitre {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.filtreTexteIcons {
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtreTexteIcons:hover {
+    border: 2px solid #deebff;
+    height: 50px;
+}
+.filtreTexteIcons:hover > .filtreTexte {
+    color: #0065FC;
+}
+.filtreTexteIcons:hover > .filtreIcons {
+    color:white;
+    background-color: #0065FC;  
+}
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+.filtreIcons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color: #deebff;
+}
+/* INFO ICONE */
+.info {
+    display: flex;
+    align-items: center;
+}
+.cercleIcone {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+/* HEBERGEMENTS */
+.conteneurHebergements {
+    flex:2;
+    height: 700px;
+    margin-right: 20px;
+    border-radius: 15px;
+    }
+.blocHebergement {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 0px;
+   }
+.bloc1 {
+    margin-bottom: 15px;
+}
+.bloc2 {
+    margin-top: 15px;
+}
+.carteDetailsHebergement {
+    width: 90%;
+}
+.carteHebergement {
+    width: 29%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+.carteHebergement:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.imgHebergement1 {
+    background-image: url("./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement2 {
+    background-image: url("./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement3 {
+    background-image: url("./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement4 {
+    background-image: url("./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement5 {
+    background-image: url("./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement6 {
+    background-image: url("./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+/* POPULAIRES */
+.conteneurPopulaires {
+    flex: 1;
+    height: 700px;
+    margin-left: 20px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+.blocPopulaires12 {
+    margin-bottom: 22px;
+}
+.imgPopulaires1 {
+    background-image: url("./img/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopulaires2 {
+    background-image: url("./img/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopulaires3 {
+    background-image: url("./img/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.cartePopulaires {
+    background-color: white;
+    height: auto;
+    padding: 1.8% 0 1.8% 1.8%;
+    border-radius: 20px;
+}
+.cartePopulaires:hover {
+    cursor: pointer;
+    transform: scale(1.04); 
+}
+.carteDetailsPopulaires {
+    width: 60%;
+    padding-left: 5%;
+}
+/* ACTIVITES */
+.Activites {
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+.blocActivites {
+    width: 100%;
+    height: 600px;
+}
+.blocActivites23456 {
+    width: 23%;
+    height: 600px;
+}
+/* réglage bloc */
+.carteActivite {
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.carteActivite:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.carteActivite23456 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2; 
+}
+.carteActivite23456:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+/* finition bloc */
+.hauteurTitre {
+    height: 70px;
+}
+.titreActivites {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+.imgActivite1 {
+    background-image: url("./img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivite2 {
+    background-image: url("./img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivite3 {
+    background-image: url("./img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivite4 {
+    background-image: url("./img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivite5 {
+    background-image: url("./img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivite6 {
+    background-image: url("./img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+/* FOOTER */
+.footer {
+    height: 300px;
+    margin-top: 100px;
+}
+.tailleBlocFoot {
+  height: 150px;  
+}
+.margeBlockFoot1{
+    margin-left:5%
+}
+.margeBlockFoot3 {
+    margin-right: 15%;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 1295px) {
+    .sizeLien12 {
+     margin-left: 35%;
+    }
+}
+    .carteDetailsHebergement {
+        min-height: 150px ;
+    }
+    .conteneurHebergements {
+        min-height: auto;
+        padding: 20px;
+    }
+    .conteneurPopulaires {
+        min-height: auto;
+        padding: 20px;
+    }
+    @media screen and (max-width: 990px) {
+    .mobileFiltreWrap {
+        flex-direction: column;
+        align-items:flex-start
+    } 
+    .filtreTexteIcons {
+        margin-bottom: 20px;
+    }
+    #hebergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    } 
+    .conteneurPopulaires {
+        flex: none;
+        width: 92%;
+        margin-left: 0;
+        padding: 3%;
+        max-height: 670px;
+    } 
+    .conteneurHebergements {
+        flex: none;
+        width: 92%;
+        margin-right : 0;
+        padding: 3%;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .sizeLiens {
+        width: 92%;
+    }
+    .sizeLien12 {
+        margin-left: 35%;
+    }
+    .conteneurHebergements {
+        height: auto;
+    }
+    .bloc1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .bloc2 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .carteHebergement {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    .carteDetailsHebergement {
+        min-height: auto;
+    }
+    .blocActivites {
+        flex-direction: column;
+        height: auto;
+    }
+    .carteActivite {
+        width: 92%;
+        margin-bottom: 25px;
+    }
+    .blocActivites23456 {
+        width: 92%;
+        height: auto;
+    }
+    .carteActivite23456 {
+        margin-bottom: 25px;
+    }
+    .imgActivite1,
+    .imgActivite2,
+    .imgActivite3,
+    .imgActivite4,
+    .imgActivite5,
+    .imgActivite6 {
+        height: 200px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-left: 30px;
+        margin-top: 0;
+    }
+    .margeBlockFoot1 {
+        margin-left: 0;
+    }    
+}
+
