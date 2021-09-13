@@ -11,6 +11,10 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
+main {
+    margin-right: 3%;
+    margin-left: 3%;
+}
 .flexCentre {
     display: flex;
     justify-content: center;
@@ -216,23 +220,27 @@ body {
 .conteneurHebergements {
     flex:2;
     height: 700px;
-    margin-right: 20px;
+    margin-right: 25px;
     border-radius: 15px;
     }
 .blocHebergement {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 200px;
+    padding-left: 30px;
     padding-top: 0px;
    }
 .bloc1 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-left: 12px;
+    margin-right:12px ;
 }
 .bloc2 {
     margin-top: 15px;
+    margin-left: 12px;
+    margin-right:12px ;
 }
 .carteDetailsHebergement {
     width: 90%;
-}
+    }
 .carteHebergement {
     width: 29%;
     height: auto;
@@ -240,7 +248,7 @@ body {
     padding: 1%;
     border-radius: 20px;
     position:relative;
-}
+   }
 .carteHebergement:hover {
     cursor: pointer;
     transform: scale(1.05);
@@ -295,7 +303,7 @@ body {
 }
 .interligne {
    position:absolute;
-   bottom:20px;
+   bottom: 20px;
 }
 /* POPULAIRES */
 .conteneurPopulaires {
@@ -303,11 +311,9 @@ body {
     height: 700px;
     margin-left: 20px;
     border-radius: 15px;
-    padding-left: 25px;
-    padding-right: 25px; 
 }
 .blocPopulaires12 {
-    margin-bottom: 22px;
+    margin-bottom: 26px;
 }
 .imgPopulaires1 {
     background-image: url("../img/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
@@ -338,6 +344,8 @@ body {
     height: auto;
     padding: 1.8% 0 1.8% 1.8%;
     border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .cartePopulaires:hover {
     cursor: pointer;
@@ -459,7 +467,7 @@ body {
     }
 }
     .carteDetailsHebergement {
-        min-height: 150px ;
+        min-height: 140px ;
     }
     .conteneurHebergements {
         min-height: auto;
@@ -469,7 +477,7 @@ body {
         min-height: auto;
         padding: 20px;
     }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
     .mobileFiltreWrap {
         flex-direction: column;
         align-items:flex-start
@@ -496,13 +504,16 @@ body {
         margin-top: 40px;
     }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 780px) {
     .sizeLiens {
         width: 92%;
     }
     .sizeLien12 {
         margin-left: 35%;
     }
+    .carteDetailsHebergement {
+        min-height: 150px ;
+
     .conteneurHebergements {
         height: auto;
     }
@@ -527,14 +538,14 @@ body {
     }
     .carteActivite {
         width: 92%;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     .blocActivites23456 {
         width: 92%;
         height: auto;
     }
     .carteActivite23456 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     .imgActivite1,
     .imgActivite2,
@@ -556,7 +567,7 @@ body {
         margin: bottom 50px;
     }    
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .sizeLien {
         flex-direction: row;
     }
@@ -595,6 +606,8 @@ body {
         width: 50px;
         border-radius: 15px;
     }
+    .carteDetailsHebergement {
+        min-height: 160px ;
     .desktopNone {
         display: block;
     }
