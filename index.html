@@ -16,12 +16,12 @@
    <link 
    href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" 
    rel="stylesheet"/>
-   <link rel="stylesheet" type="text/css" href="style.css" />
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Reservia</title>  
 </head>
 <body>
     <div id="blocPage">
-        <header>
+        <header">
             <nav class="sizeNav">
                 <div class="sizeLiens flexBetween">
                     <div><img 
@@ -33,18 +33,18 @@
                         />
                     </div>            
                 
-                    <!-- ajout div pour englober les liens hebergements et activites -->
+                    <!-- ajout div pour englober les liens hebergements et activites  -->
                     <div class="sizeLien12 flexCentre">
-                        <div class="sizeLien flexCentre bordureNav">
+                        <div class="sizeLien sizeLienMobile flexCentre bordureNav">
                             <a class="couleurLien2 couleurNoire decorationNone" href="#hebergements">
                                 Hébergements</a>
                         </div>
-                        <div class="sizeLien flexCentre bordureNav">
+                        <div class="sizeLien sizeLienMobile flexCentre bordureNav">
                             <a class="couleurLien2 couleurnoire decorationNone" href="#activites">
                                 Activités</a>
                         </div>
                     </div>
-                    <div class="sizeLien flexCentre bordureNav">
+                    <div class="sizeLien sizeLienMobile flexCentre bordureNav">
                         <a class="policeGras couleurBleu decorationNone" href="#">
                             S'inscrire</a>
                     </div>            
@@ -64,10 +64,13 @@
                     <div>
                         <input class="rechercher flexCentre bordureNone paddingRechercher" 
                         type="search" 
-                        value=" Marseille, France" 
+                        placeholder=" Marseille, France" 
                         />
                     </div>
-                    <div class="backBleu flexCentre signifiantRechercher">Rechercher</div>
+                    <div class="backBleu flexCentre signifiantRechercher">
+                        <span class="mobileNone">Rechercher</span>
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
                 </div>
                 <div class="mobileFiltreWrap filtre margeFiltre">
                     <div class="margeFiltreTitre"><h3>Filtres</h3></div>
@@ -113,7 +116,7 @@
                         <div class="carteDetailsHebergement ">
                             <h3>Auberge La Cannebière</h3>
                             <p>Nuit à partir de 25€</p>
-                            <div>
+                            <div class="interligne">
                                 <i class="fas fa-star couleurBleu"></i>
                                 <i class="fas fa-star couleurBleu"></i>
                                 <i class="fas fa-star couleurBleu"></i>
@@ -127,7 +130,7 @@
                         <div class="carteDetailsHebergement">
                             <h3>Hôtel du port</h3>
                             <p>Nuit à partir de 52€</p>
-                            <div>
+                            <div class="interligne">
                                 <i class="fas fa-star couleurBleu"></i>
                                 <i class="fas fa-star couleurBleu"></i>
                                 <i class="fas fa-star couleurBleu"></i>
