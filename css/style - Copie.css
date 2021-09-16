@@ -166,19 +166,17 @@ h3 {
 }
 /* FILTRES */
 .margeFiltre {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    display: inline-flex;
-    padding-right: 30px;
+    margin-top: 35px;
+    margin-bottom: 19px;
 }
 .filtre{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    display:inline-flex
+     align-items: center;
 }
 .margeFiltreTitre {
     margin-left: 10px;
     margin-right: 15px;
+    
 }
 .filtreTexteIcons {
     border: 2px solid #e2dfdf;
@@ -273,7 +271,7 @@ h3 {
 .carteDetailsHebergement {
     width: 100%;
     padding-left: 4%;
-    font-size: 80%;
+    font-size: 12px;
     padding-bottom: 5px;
 }
 .imgHebergement1 {
@@ -281,7 +279,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 110px;
+    height: 95px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement2 {
@@ -289,7 +287,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 110px;
+    height: 95px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement3 {
@@ -297,7 +295,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 110px;
+    height: 95px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement4 {
@@ -305,7 +303,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 110px;
+    height: 95px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement5 {
@@ -313,7 +311,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 110px;
+    height: 95px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement6 {
@@ -321,7 +319,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 110px;
+    height: 95px;
     border-radius: 15px 15px 0 0;
 }
 .margesAfficher {
@@ -343,13 +341,6 @@ h3 {
 }
 .blocPopulaires12 {
     margin-bottom: 26px;
-}
-.margeTextCartePop {
-    margin-top: -5%;
-    margin-bottom:18%;
-}
-.interligneCartePop {
-    line-height: 1.3;
 }
 .imgPopulaires1 {
     background-image: url("../img/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
@@ -392,7 +383,7 @@ h3 {
     width: 50%;
     padding-left: 6%;
     padding-right: 6px;
-    font-size: 80%;
+    font-size: small;
 }
 /* ACTIVITES */
 .Activites {
@@ -506,6 +497,9 @@ h3 {
      margin-left: 50%;
     }
    
+    .carteDetailsHebergement {
+        min-height: 150px;
+    }
     .conteneurHebergements {
         min-height: auto;
         padding: 20px;
@@ -515,194 +509,19 @@ h3 {
         padding: 20px;
     }
 @media screen and (max-width: 1000px) {
-    .sizeLien12 {
-        margin-left: 40%;
-       }
-    .margeFiltre {
-        margin-top: 20px;
-    }
-      .filtreTexteIcons {
-        margin-bottom: 20px;
-    }
-    #hebergements {
-        flex-direction: column-reverse;
-        width: 100%;
-    } 
-    .conteneurPopulaires {
-        flex: none;
-        width: 92%;
-        margin-left: 0;
-        padding: 3%;
-        height: auto;
-    } 
-    .conteneurHebergements {
-        flex: none;
-        width: 92%;
-        margin-right : 0;
-        padding: 3%;
-        margin-top: 40px;
-        height: 800px;
-    }
-    .carteHebergement {
-        max-height: 400px;
-    }
-    .carteDetailsHebergement {
-        min-height: 110px ;  
-    }
-    .imgPopulaires1,
-    .imgPopulaires2,
-    .imgPopulaires3 {
-        width: 45%;
-        height: 250px;
-   }
-@media screen and (max-width: 790px) {
-    .sizeLien12 {
-        margin-left: 20%;
-       }
-    .carteDetailsHebergement {
-        min-height: 150px ;
-    }
-    .conteneurHebergements {
-        height: auto;
-    }
-    .bloc1 {
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-    .bloc2 {
-        flex-direction: column;
-        margin-top: 0;
-    }
-    .carteHebergement {
-        width: 100%;
-        margin-bottom: 20px;
-        height: auto;
-    }
-    .imgHebergement1,
-    .imgHebergement2,
-    .imgHebergement3,
-    .imgHebergement4,
-    .imgHebergement5,
-    .imgHebergement6 {
-        width: 100%;
-        height: 250px;
-        background-size: cover;
-        background-position: center;
-    }
-    .carteDetailsHebergement {
-        max-height: 40%;
-    }
-    .imgPopulaires1,
-    .imgPopulaires2,
-    .imgPopulaires3 {
-        width: 100%;
-        height: 200px;
-        background-size: cover;
-        background-position: center;
-    }
-    .blocActivites {
-        flex-direction: column;
-        height: auto;
-    }
-    .carteActivite {
-        width: 92%;
-        margin-bottom: 20px;
-    }
-    .blocActivites23456 {
-        width: 92%;
-        height: auto;
-    }
-    .carteActivite23456 {
-        margin-bottom: 20px;
-    }
-   
-    .footer {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding-left: 30px;
-        margin-top: 0;
-    }
-    .margeBlockFoot1 {
-        margin-left: 0;
-        margin-bottom: 35px;
-    } 
-    .footer {
-        padding-left: 40px;
-    }     
-}
-@media screen and (max-width: 600px) {
-    .sizeLien {
-        flex-direction: row;
-    }
-    .sizeLien12 {
-        order: 1;
-        width: 100%;
-        margin-left: 0;
-    }
     .mobileFiltreWrap {
         flex-direction:column;
-        align-items: flex-start;
-    }
-    .sizeLienMobile {
-        width: 50%;
-        border-top: 0;
-        border-bottom: 4px solid #f2f2f2;
-    }
-    .sizeLienMobileTransparent {
-        width: 50%;
-        border-top: 0;
-        border-bottom: 4px solid transparent
-    }
-    .sizeLiens {
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .sizeLienMobile:hover {
-        border-top: 0;
-        border-bottom: 4px solid #0065FC;
-    }
-    .mobileTitreh1 {
-        font-size: x-large;
-    }
-    .margeSlogan {
-        margin-top: 30px;
-    }
-    .bordureRechercher {
-        width: auto;
-        border: none;
-        padding-top: 30px;
-    }
-    .rechercher {
-        width: 200px;
-        border-bottom: 1px solid #f2f2f2;
-        border-top: 1px solid #f2f2f2;
+        align-items: center;
         
     }
-    .signifiantRechercher {
-        width: 50px;
-        border-radius: 15px;
+    .margefiltreTablette {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
     }
-    .carteHebergement {
-        max-height: 270px;
+    .filtreTexteIcons {
+        margin-bottom: 15px;
     }
-    .carteDetailsHebergement {
-        min-height: 70%;
-    }
-    .cartePopulaires {
-        max-height: 220px;
-    }
-    .desktopNone {
-        display: block;
-    }
-    .mobileNone {
-        display: none;
-    }    
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-    }
-}
-
+    
+    
+    
+    
