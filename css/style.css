@@ -356,7 +356,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 42%;
-    height: 130px;
+    height: 140px;
     border-radius: 15px 0 0 15px;
 }
 .imgPopulaires2 {
@@ -364,7 +364,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 42%;
-    height: 130px;
+    height: 140px;
     border-radius: 15px 0 0 15px;
 }
 .imgPopulaires3 {
@@ -372,7 +372,7 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 42%;
-    height: 130px;
+    height: 140px;
     border-radius: 15px 0 0 15px;
 }
 .cartePopulaires {
@@ -383,6 +383,8 @@ h3 {
     box-shadow: 0 0 15px #0000002e;
     margin-left: 10px;
     margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
 }
 .cartePopulaires:hover {
     cursor: pointer;
@@ -436,7 +438,7 @@ h3 {
     justify-content: flex-start;
     align-items: center;
     padding-left: 5%;
-    width: 95%;
+    width: 90%;
 }
 .imgActivite1 {
     background-image: url("../img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
@@ -505,7 +507,9 @@ h3 {
     .sizeLien12 {
      margin-left: 50%;
     }
-   
+    .margeFiltre {
+        margin-top: 20px;
+    }
     .conteneurHebergements {
         min-height: auto;
         padding: 20px;
@@ -514,15 +518,30 @@ h3 {
         min-height: auto;
         padding: 20px;
     }
+    .imgActivite1,
+    .imgActivite2,
+    .imgActivite3,
+    .imgActivite4,
+    .imgActivite5,
+    .imgActivite6 {
+        height: 150px;
+    }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+
+
 @media screen and (max-width: 1000px) {
     .sizeLien12 {
         margin-left: 40%;
        }
-    .margeFiltre {
-        margin-top: 20px;
-    }
       .filtreTexteIcons {
         margin-bottom: 20px;
+    }
+    .margeFiltre {
+        margin-top: 20px;
     }
     #hebergements {
         flex-direction: column-reverse;
@@ -533,7 +552,7 @@ h3 {
         width: 92%;
         margin-left: 0;
         padding: 3%;
-        height: auto;
+        height: auto;  
     } 
     .conteneurHebergements {
         flex: none;
@@ -541,26 +560,39 @@ h3 {
         margin-right : 0;
         padding: 3%;
         margin-top: 40px;
-        height: 800px;
+        height: 680px;
     }
     .carteHebergement {
-        max-height: 400px;
+        max-height: 380px;
     }
     .carteDetailsHebergement {
         min-height: 110px ;  
     }
+     .interligneCartePop {
+        line-height: 1.2;
+        font-size: 130%;
+    }
+    .margeTextCartePop {
+        margin-top: 8%;
+        margin-bottom: 18%;
+        font-size: 120%;
+    }
+    .responsiveEtoiles {
+        font-size: medium;
+    }
     .imgPopulaires1,
     .imgPopulaires2,
     .imgPopulaires3 {
-        width: 45%;
+        width: 40%;
         height: 250px;
    }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 775px) {
     .sizeLien12 {
         margin-left: 20%;
        }
     .carteDetailsHebergement {
         min-height: 150px ;
+        font-size: 100%;
     }
     .conteneurHebergements {
         height: auto;
@@ -585,7 +617,7 @@ h3 {
     .imgHebergement5,
     .imgHebergement6 {
         width: 100%;
-        height: 250px;
+        height: 150px;
         background-size: cover;
         background-position: center;
     }
@@ -595,7 +627,7 @@ h3 {
     .imgPopulaires1,
     .imgPopulaires2,
     .imgPopulaires3 {
-        width: 100%;
+        width: 45%;
         height: 200px;
         background-size: cover;
         background-position: center;
@@ -677,21 +709,25 @@ h3 {
     .rechercher {
         width: 200px;
         border-bottom: 1px solid #f2f2f2;
-        border-top: 1px solid #f2f2f2;
-        
+        border-top: 1px solid #f2f2f2;   
     }
     .signifiantRechercher {
         width: 50px;
         border-radius: 15px;
     }
-    .carteHebergement {
-        max-height: 270px;
-    }
     .carteDetailsHebergement {
         min-height: 70%;
     }
+    .conteneurHebergements {
+        border-radius: 0;
+
+    }
+    .conteneurPopulaires {
+        border-radius: 0px
+    }
     .cartePopulaires {
         max-height: 220px;
+        padding: 0;
     }
     .desktopNone {
         display: block;
