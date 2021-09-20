@@ -404,11 +404,11 @@ h3 {
 }
 .blocActivites {
     width: 100%;
-    height: 50%
+    height: 500px;
 }
 .blocActivites23456 {
-    width: 100%;
-    height: 400px;
+    width: 23%;
+    height: 500px;
 }
 /* réglage bloc */
 .carteActivite {
@@ -530,9 +530,7 @@ h3 {
 }
 
 @media screen and (min-width: 755px) and (max-width: 1280px) {
-    .blocActivites {
-        flex: none;
-    }    
+  
 } 
 
 
