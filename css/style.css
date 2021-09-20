@@ -8,7 +8,7 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
-#blocPage{
+#blocPage {
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -741,4 +741,3 @@ h3 {
         padding: 0;
     }
 }
-
