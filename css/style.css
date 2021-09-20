@@ -197,7 +197,7 @@ h3 {
     cursor: pointer;
 }
 .filtreTexteIcons:hover > .filtreIcons {
-    color:white;
+    color: white;
     background-color: #0065FC;
     cursor: pointer;  
 }
