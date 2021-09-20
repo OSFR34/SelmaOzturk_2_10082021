@@ -525,6 +525,7 @@ h3 {
     .imgActivite6 {
         height: 150px;
     }
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
 
@@ -535,8 +536,8 @@ h3 {
 @media screen and (max-width: 1000px) {
     .sizeLien12 {
         margin-left: 40%;
-       }
-      .filtreTexteIcons {
+    }
+    .filtreTexteIcons {
         margin-bottom: 20px;
     }
     .margeFiltre {
@@ -584,7 +585,8 @@ h3 {
     .imgPopulaires3 {
         width: 40%;
         height: 250px;
-   }
+    }
+}
 @media screen and (max-width: 775px) {
     .sizeLien12 {
         margin-left: 20%;
@@ -683,7 +685,7 @@ h3 {
     .sizeLienMobileTransparent {
         width: 50%;
         border-top: 0;
-        border-bottom: 4px solid transparent
+        border-bottom: 4px solid transparent;
     }
     .sizeLiens {
         width: 100%;
