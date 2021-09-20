@@ -404,11 +404,11 @@ h3 {
 }
 .blocActivites {
     width: 100%;
-    height: 500px;
+    height: 50%
 }
 .blocActivites23456 {
-    width: 23%;
-    height: 500px;
+    width: 100%;
+    height: 400px;
 }
 /* réglage bloc */
 .carteActivite {
@@ -529,9 +529,12 @@ h3 {
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 755px) and (max-width: 1280px) {
+    .blocActivites {
+        flex: none;
+    }    
+} 
 
-}
 
 
 
@@ -722,11 +725,10 @@ h3 {
         min-height: 70%;
     }
     .conteneurHebergements {
-        border-radius: 0;
+        border-radius: 15px ;
     }
     .conteneurPopulaires {
-        border-radius: 0;
-        padding: 8%;
+        border-radius: 15px;
     }
     .cartePopulaires {
         max-height: 220px;
