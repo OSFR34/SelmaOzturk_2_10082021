@@ -726,6 +726,7 @@ h3 {
     }
     .conteneurPopulaires {
         border-radius: 0;
+        padding: 8%;
     }
     .cartePopulaires {
         max-height: 220px;
