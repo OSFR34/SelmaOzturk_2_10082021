@@ -114,8 +114,10 @@ h3 {
 .bordureNav:hover > a {    
     color: #0065FC; 
     }
-.margeLogo {
+.Logo {
     margin-bottom: 5px;
+    width:"120px";
+    height:"50px"
 }
 .slogan {
     font: bold;
@@ -239,7 +241,7 @@ h3 {
 .blocHebergement {
     padding-right: 25px;
     padding-left: 25px;
-    padding-top: 0px;
+    padding-top: 0;
    }
 .bloc1 {
     margin-bottom: 25px;
@@ -723,11 +725,10 @@ h3 {
         border-radius: 0;
     }
     .conteneurPopulaires {
-        border-radius: 0px
+        border-radius: 0;
     }
     .cartePopulaires {
         max-height: 220px;
-        padding: 0;
     }
     .desktopNone {
         display: block;
