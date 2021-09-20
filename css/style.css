@@ -254,9 +254,8 @@ h3 {
 }
 .interligneHebergement {
     width: 100%;
-    line-height: normal;
-    
-    }
+    line-height: normal;    
+}
 .carteHebergement {
     width: 29%;
     height: auto;
