@@ -518,14 +518,6 @@ h3 {
         min-height: auto;
         padding: 20px;
     }
-    .imgActivite1,
-    .imgActivite2,
-    .imgActivite3,
-    .imgActivite4,
-    .imgActivite5,
-    .imgActivite6 {
-        height: 150px;
-    }
 }
 
 @media screen and (min-width: 755px) and (max-width: 1280px) {
@@ -585,7 +577,7 @@ h3 {
     .imgPopulaires1,
     .imgPopulaires2,
     .imgPopulaires3 {
-        width: 40%;
+        width: 50%;
         height: 250px;
     }
 }
@@ -650,6 +642,14 @@ h3 {
     .carteActivite23456 {
         margin-bottom: 20px;
     }
+    .imgActivite1,
+    .imgActivite2,
+    .imgActivite3,
+    .imgActivite4,
+    .imgActivite5,
+    .imgActivite6 {
+        height: 230px;
+    }
    
     .footer {
         flex-direction: column;
@@ -669,6 +669,7 @@ h3 {
 @media screen and (max-width: 600px) {
     .sizeLien {
         flex-direction: row;
+        height: 45px;
     }
     .sizeLien12 {
         order: 1;
