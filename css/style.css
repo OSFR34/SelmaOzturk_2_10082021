@@ -23,41 +23,41 @@ h2 {
 h3 {
     line-height: 1.20;
 }
-.flexCentre {
+.ajustementCentre {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.flexAround {
+.ajustementAround {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.flexBetween {
+.ajustementBetween {
     display: flex;    
     justify-content: space-between;
     align-items: center;
 }
-.flexColonneCentre {
+.ajustementColonneCentre {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.flexColonneAround {
+.ajustementColonneAround {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.flexColonneBetween {
+.ajustementColonneBetween {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.decorationNone {
+.sansDecoration {
     text-decoration: none;
 }
-.bordureNone {
+.sansBordures {
     border: none;
 }
 .policeGras {
@@ -125,7 +125,7 @@ h3 {
     margin-top: 0;
 }
 /* HEADER */
-.desktopNone {
+.sansDesktop {
     display: none;
 }
 .bordureRechercher {
@@ -731,10 +731,10 @@ h3 {
     .cartePopulaires {
         max-height: 220px;
     }
-    .desktopNone {
+    .sansDesktop {
         display: block;
     }
-    .mobileNone {
+    .sansMobile {
         display: none;
     }    
     html,
